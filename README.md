@@ -1,6 +1,6 @@
 # gravitee-tool - some utils for maintenance work
 
-## Installation (Requires Node >= 12)
+## Installation (Requires NodeJs >= 12)
 
 `npm i -g mtwomey/gravitee-tool#v1.0.2` (or whatever version)
 
