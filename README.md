@@ -8,7 +8,7 @@
 
 `gravitee-tool --env dev`
 
-## Set your JWT
+## Set your JWT (you must get your JWT from the browser debugger while logged into the Gravitee console)
 
 `gravitee-tool --jwt [token]`
 
