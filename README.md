@@ -2,7 +2,7 @@
 
 ## Installation
 
-`npm i -g mtwomey/gravitee-tool#v1.0.0` (or whatever version)
+`npm i -g mtwomey/gravitee-tool#v1.0.2` (or whatever version)
 
 ## Set your environment
 
