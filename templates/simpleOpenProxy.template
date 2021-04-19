@@ -1,0 +1,37 @@
+{
+	"gravitee": "2.0.0",
+	"proxy": {
+		"endpoints": [{
+			"name": "default",
+			"target": ${target},
+			"inherit": true
+		}],
+		"context_path": ${contextPath},
+		"cors": ${cors}
+	},
+	"pages": [],
+	"plans": [{
+		"characteristics": [],
+		"name": "Open Plan",
+		"description": "No Key Required",
+		"security": "KEY_LESS",
+		"validation": "AUTO",
+		"flows": [{
+			"path-operator": {
+				"path": "/",
+				"operator": "STARTS_WITH"
+			},
+			"condition": "",
+			"pre": [],
+			"post": []
+		}],
+		"status": "PUBLISHED"
+	}],
+	"tags": [],
+	"labels": ${labels},
+	"groups": [],
+	"name": ${name},
+	"description": ${description},
+	"version": "1.0",
+	"lifecycle_state": "PUBLISHED"
+}
